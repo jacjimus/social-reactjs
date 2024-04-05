@@ -9,7 +9,6 @@ import {
   useDeleteSavedPost,
   useGetCurrentUser,
 } from "@/lib/react-query/queries";
-import { log } from "console";
 
 type PostStatsProps = {
   post: Models.Document;
